@@ -26,3 +26,15 @@
 - to reach the previous sentence we use the `shift  + 9` OR `(` symbol
 - `w` will move to the beggining of the next word
 - `e` will move to the end of the current word
+
+
+**Searcing in vim**
+
+- In normal mode write the `/` and write whatever you want to search after that
+- Once you press enter you will enter search mode
+- if you press `n` vim will take you to the next occurence of the word
+- if you press `N` vim will take you to the previous occurence of the word
+- `/` is the forward search command in vim
+- `?` is the backward search command in vim
+- if you don't know the correct spelling of the word you can enter `.` in the place of the letter.
+- For Example: I want to search `wonderful` in the file, but I only know that letters `won` and `ful`, therefore for the missing letters `der` I will search like `/won...ful` and vim will match me with the word `wonderful`.
