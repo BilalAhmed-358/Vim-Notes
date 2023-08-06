@@ -1,4 +1,4 @@
-## This repo contains my notes when I was learing to use Vim
+## This repo contains my notes when I was learning to use Vim
 
 - Vim has normally has 2 modes
   - Normal mode
