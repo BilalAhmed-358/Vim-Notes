@@ -38,3 +38,11 @@
 - `?` is the backward search command in vim
 - if you don't know the correct spelling of the word you can enter `.` in the place of the letter.
 - For Example: I want to search `wonderful` in the file, but I only know that letters `won` and `ful`, therefore for the missing letters `der` I will search like `/won...ful` and vim will match me with the word `wonderful`.
+
+
+**Screen Movement**
+
+- To get to the end of the file press `shift + g` or `G`
+- To get to the start of the file press `gg`(g two times)
+- To get the next page press `ctrl + f`
+- To get the previous page press `ctrl + b`
